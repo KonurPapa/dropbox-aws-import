@@ -9,7 +9,7 @@ dynamodb = boto3.resource('dynamodb')
 def lambda_handler(event, context):
     
     # S3 bucket to import into
-    # bucket = "excel-database-input"
+    # bucket = "BUCKET"
     
     # DynamoDB database to import into
     table = "TABLE"
